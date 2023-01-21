@@ -1,0 +1,180 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: gray;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 980px;
+    margin: auto;
+}
+
+#logo {
+    height: 100px;
+    width: 200px;
+    background-color: white;
+}
+
+ul li {
+    display: inline-block;
+    margin: 10px;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#primeira-sessao {
+    background-image: url('../imagens/nossa-senhora-virgem-maria-jesus-catolicismo-igreja-catolica-fe-1637871965342_v2_4x3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(153, 153, 153);
+    height: 500px;
+    width: 100%;
+    max-width: 980px;
+    margin: auto;
+}
+
+#galeria {
+    background-color: gray;
+    margin: auto;
+    height: 300px;
+    width: 100%;
+    max-width: 980px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.circulo {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url('../imagens/roupa-batizado-scaled.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.destaque > p {
+    text-align: center;
+}
+
+#avisos {
+    margin: auto;
+    width: 100%;
+    max-width: 980px;
+    background-color: rgb(184, 184, 184);
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.avisos-avisos {
+    margin: 10px;
+    height: 200px;
+    width: 48%;
+    background-color: black;
+}
+
+#agenda {
+    padding: 10px;
+    margin: auto;
+    width: 980px;
+    max-width: 100%;
+    background-color: rgb(83, 83, 83);
+    height: 500px;
+}
+
+#agenda-mes {
+    margin: auto;
+    background-color: blue;
+    width: 317px;
+    height: 450px;
+    
+    background-image: url('../imagens/WhatsApp\ Image\ 2023-01-21\ at\ 17.47.50.jpeg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#contato {
+    background-color: gray;
+    margin: auto;
+    height: 500px;
+    max-width: 100%;
+    width: 980px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#div-form {
+    height: 400px;
+    width: 50%;
+    background-color: antiquewhite;
+    
+}
+
+form > p {
+    text-align: center;
+    margin: 10px;
+}
+
+input {
+    display: block;
+    margin: 0 auto;
+    padding: 15px;
+    width: 50%;
+}
+
+#btn-enviar {
+    margin: 20px auto;
+}
+
+#maps {
+    height: 400px;
+    width: 50%;
+
+}
+
+#programacao {
+    margin: auto;
+    width: 980px;
+    max-width: 100%;
+    height: 300px;
+    background-color: rgb(78, 78, 78);
+    padding: 10px;
+    
+}
+
+#tabela {
+
+    margin: 10px auto;
+    background-color: white;
+    width: 80%;
+    text-align: center;
+    padding: 20px;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+}
+td {
+    
+    border: 2px solid black;
+    padding: 5px;
+}

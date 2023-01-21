@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Menus</title> 
+    <link rel="stylesheet" href="estilos/style.css"> <!--mobile first-->
+    <link rel="stylesheet" href="media-query.css"> <!-- normal -->
+    
+</head>
+<body onresize="mudoutamanho()">
+    <header>
+        <h1>
+            Meu Site
+        </h1>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="menu">
+            <ul>
+                <li>
+                    <a href="#">Opção 1</a>
+                </li>
+                <li>
+                    <a href="#">Opção 2</a>
+                </li>
+                <li>
+                    <a href="#">Opção 3</a>
+                </li>
+                <li> 
+                    <a href="#">Opção 4</a>
+                </li>
+                <li>
+                    <a href="#">Opção 5</a>
+                </li>
+            </ul>
+        </menu>
+
+    </header>
+    <main>
+        <article>
+            <h2>Testando</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi nesciunt blanditiis id recusandae excepturi, temporibus distinctio praesentium assumenda, saepe voluptatem quibusdam ipsam inventore nisi molestiae voluptatibus aliquam, dolorem officia eaque! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium quae voluptatem dicta ad? Laborum, dolorum nam eos repellendus consectetur optio autem officiis consequuntur sed eum ipsum unde deserunt ea perspiciatis.</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae necessitatibus repellat distinctio est magni dicta inventore, architecto eligendi. Sit, corrupti? Perferendis, quae dolor quidem quia repellat tempora harum magni ullam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut, dignissimos? Voluptatum assumenda sequi quas hic mollitia tenetur aliquid molestias, nobis rerum at. Dolorem porro nesciunt quas, illum sequi cupiditate modi.</p>
+
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+           if (menu.style.display == 'block') {
+            menu.style.display = 'none'
+           }
+           else {
+            menu.style.display = 'block'
+           }
+
+
+
+        }
+        function mudoutamanho () {
+            if (window.innerWidth >= 768) {
+                menu.style.display = 'block'
+            } 
+            else {
+                menu.style.display = 'none'
+            }
+        }
+
+    </script>
+</body>
+</html>
